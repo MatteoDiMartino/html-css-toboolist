@@ -3,3 +3,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F6F8F9;
+}
+
+.headpage {
+    background-color: white;
+    padding: 15px;
+}
+
+
+.logo {
+    vertical-align: middle;
+}
+
+.titlehead {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.container {
+    max-width: 800px;
+    background-color: white;
+}
+
+.button1 {
+    background-color: #47ADF1;
+    padding: 7px 14px ;
+    border-radius: 7px;
+    color: white;
+    border: 0;
+}
+
+.button2 {
+    background-color: white;
+    padding: 7px 14px ;
+    border-radius: 7px;
+    color: #C5CBD0;
+    border: 1px solid #C5CBD0;
+}
+
