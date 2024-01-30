@@ -78,3 +78,60 @@ body {
     vertical-align: middle;
 
 }
+
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: 2px solid #89D0BF;
+    text-align: center;
+    line-height: 20px;
+    color: #89D0BF;
+    display: inline-block;
+}
+
+.circle2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: 2px solid #F6C2C0;
+    text-align: center;
+    line-height: 20px;
+    color: #F6C2C0;
+    display: inline-block;
+}
+
+
+.name-ta1 {
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.tblue {
+    background-color: #45ABE9 ;
+    color: white;
+    padding: 6px 10px 6px 10px;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+.secondatask {
+    margin-top: 20px;
+}
+
+.tpurple {
+    background-color: #9C72E4;
+    color: white;
+    padding: 6px 10px 6px 10px;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+.tgreen {
+    background-color: #64C0A9;
+    color: white;
+    padding: 6px 10px 6px 10px;
+    border-radius: 10px;
+    font-size: 10px;
+}
