@@ -27,7 +27,15 @@ body {
 .container {
     max-width: 800px;
     background-color: white;
+    margin: 20px auto;
+    padding: 15px 13px 15px 13px;
 }
+
+.allbutton {
+    display: inline-block;
+}
+
+
 
 .button1 {
     background-color: #47ADF1;
@@ -44,4 +52,3 @@ body {
     color: #C5CBD0;
     border: 1px solid #C5CBD0;
 }
-
