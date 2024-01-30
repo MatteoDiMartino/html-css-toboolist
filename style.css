@@ -135,3 +135,11 @@ body {
     border-radius: 10px;
     font-size: 10px;
 }
+
+.torange {
+    background-color: #F29E33;
+    color: white;
+    padding: 6px 10px 6px 10px;
+    border-radius: 10px;
+    font-size: 10px;
+}
