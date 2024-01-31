@@ -28,51 +28,43 @@ body {
     max-width: 800px;
     background-color: white;
     margin: 45px auto;
-    margin-bottom: 2px;
-    padding: 15px 13px 15px 13px;
+    margin-bottom: 3px;
+    padding: 18px 55px 18px 55px;
     border-radius: 8px 8px 0px 0px;
-}
-
-.allbutton {
-    display: inline-block;
-    padding: 10px 25px 10px 25px;
-}
-
-
-
-.button1 {
-    background-color: #47ADF1;
-    padding: 7px 14px ;
-    border-radius: 7px;
-    color: white;
-    border: 0;
-}
-
-.button2 {
-    background-color: white;
-    padding: 7px 14px ;
-    border-radius: 7px;
-    color: #C5CBD0;
-    border: 1px solid #C5CBD0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-bottom:#c4cbd0;
 }
 
 .container2 {
-    max-width: 800px;
-    background-color: white;
-    margin: auto;
-    padding: 40px;
+    border-top: #14aaf5;
+    margin-top: 2px;
+    border-radius: 0;
+    
 }
 
 
-
-
-.down-arrow {    
-    border-left: 7px solid transparent; 
-    border-right:7px solid transparent; 
-    border-top: 7px solid rgb(0, 0, 0); 
+.button {
+    padding: 7px 14px ;
+    border-radius: 7px;
+    border: 1;
     display: inline-block;
-    vertical-align: middle;
-} 
+    background-color: transparent;
+
+}
+
+.blu-button {
+    background-color: #14aaf5;
+    border-color: #14aaf5;
+    color: #ffffff;
+
+}
+
+.grey-button {
+    border-color: #c4cbd0;
+    color: #c4cbd0;
+}
+
+
 
 .first-ti {
     display: inline-block;
@@ -81,17 +73,36 @@ body {
 }
 
 
-.circle {
-    width: 20px;
-    height: 20px;
+/* .circle {
+    width: 18px;
+    height: 18px;
     border-radius: 100%;
-    border: 2px solid #89D0BF;
+    
     text-align: center;
-    line-height: 19px;
-    color: #89D0BF;
+    line-height: 18px;
+    
     display: inline-block;
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: bold;
+} */
+
+.circle {
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 18px;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    border: 2px solid #89D0BF;
+    color: #89D0BF;
 }
+
+/* .green-circle {
+
+} */
+
 
 .circle2 {
     width: 20px;
@@ -107,67 +118,78 @@ body {
 }
 
 
-.name-ta1 {
+
+
+.tag_task {
     display: inline-block;
-    padding-top: 10px;
-    margin-top: 13px;
-
+    padding: 7px 15px;
+    border-radius: 15px;
+    font-size: 14px;
 }
 
-.tblue {
-    background-color: #45ABE9 ;
+.lightblue-tag{
+    background-color: #14aaf5;
     color: white;
-    padding: 6px 10px 6px 10px;
-    border-radius: 10px;
-    font-size: 10px;
 }
 
-.secondatask {
-    margin-top: 20px;
-}
-
-.tpurple {
-    background-color: #9C72E4;
+.violet-tag {
+    background-color: #ab5de6;
     color: white;
-    padding: 6px 10px 6px 10px;
-    border-radius: 10px;
-    font-size: 10px;
 }
 
-.tgreen {
-    background-color: #64C0A9;
+.green-tag {
+    background-color: #2cc6ab;
     color: white;
-    padding: 6px 10px 6px 10px;
-    border-radius: 10px;
-    font-size: 10px;
 }
 
-.torange {
-    background-color: #F29E33;
+.orange-tag {
+    background-color: #ff9b00;
     color: white;
-    padding: 6px 10px 6px 10px;
-    border-radius: 10px;
-    font-size: 10px;
 }
 
-.upcomingtask {
-    margin-top: 20px;
-
-}
-
-.tpink {
-    background-color: #D863A1;
+.pink-tag {
+    background-color: #ec4a9d;
     color: white;
-    padding: 6px 10px 6px 10px;
-    border-radius: 10px;
-    font-size: 10px;
 }
 
-.tlime {
-    background-color: #B0C926;
+.lime-tag {
+    background-color: #a3d116;
     color: white;
-    padding: 6px 10px 6px 10px;
-    border-radius: 10px;
-    font-size: 10px;
 }
 
+
+.newtask {
+    display: inline-block;
+    margin: 0px 5px 0px 5px;
+    border: none;
+}
+
+.list-newtask {
+    list-style: none;
+    margin-top: 5px;
+}
+
+.list-todaytask {
+    list-style: none;
+    margin-top: 17px;
+}
+
+.list-incomingtask {
+    list-style: none;
+    margin-top: 17px;
+}
+
+
+.theadtask {
+    display: inline-block;
+    margin-top: 18px;
+    
+}
+
+.down-arrow {    
+    border-left: 7px solid transparent; 
+    border-right:7px solid transparent; 
+    border-top: 7px solid rgb(0, 0, 0); 
+    display: inline-block;
+    vertical-align: middle;
+} 
