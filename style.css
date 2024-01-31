@@ -39,7 +39,8 @@ body {
     border-top: #14aaf5;
     margin-top: 2px;
     border-radius: 0;
-    
+    padding-bottom: 30px;
+    border-radius: 0px 0px 8px 8px;
 }
 
 
